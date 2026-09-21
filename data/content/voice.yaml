@@ -1,0 +1,29 @@
+# Voice recordings — real recordings of you.
+#
+# `file` is relative to the media/ directory, so `voice/hello.ogg` means
+# media/voice/hello.ogg.
+#
+# Items whose file does not exist yet are SKIPPED with a warning at startup.
+# That means you can write all your metadata now and record the audio later.
+#
+# Recording tip: Telegram voice notes are .ogg. The simplest way to get one is
+# to record a voice message in Telegram, forward it to yourself, and save it.
+
+- id: voice_001
+  kind: voice
+  file: voice/hello.ogg
+  title: "just saying hi"
+  tags: [random, love]
+
+- id: voice_002
+  kind: voice
+  file: voice/goodnight.ogg
+  title: "goodnight"
+  tags: [goodnight, sleep, love]
+
+- id: voice_003
+  kind: voice
+  file: voice/missing_you.ogg
+  title: "for when you miss me"
+  tags: [missing_me, comfort]
+  weight: 2.0

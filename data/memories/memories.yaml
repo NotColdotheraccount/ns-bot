@@ -1,0 +1,55 @@
+# Our memories.
+#
+# Each memory is a small story: a title, when it happened, a few photos, and
+# what you remember about it.
+#
+# FIELDS
+#   id           required, unique, never reuse. Prefix with mem_ by convention.
+#   number       required, unique. This is what she types: "memory 3".
+#   title        required.
+#   date         free text — "June 2025", "our second date", anything.
+#   location     optional free text.
+#   description  the actual story. This is the part that matters.
+#   photos       list of paths relative to media/. Max 10 (Telegram album limit).
+#   videos       list of paths relative to media/.
+#   voice        one path — you talking about this memory.
+#   tags         funny early date food trip love random
+#   weight       optional, default 1.0.
+#
+# A memory with missing photos still sends — the words are worth sending alone.
+# So you can write all of these now and add photos later.
+
+- id: mem_001
+  number: 1
+  title: "the first time we met"
+  date: "write the date here"
+  location: "write where"
+  description: >-
+    Replace this with what you actually remember. The small details are the
+    ones worth writing down — what she was wearing, what you were nervous
+    about, the thing you both still bring up.
+  photos:
+    - photos/first_meeting_01.jpg
+  tags: [early, love]
+  weight: 2.0
+
+- id: mem_002
+  number: 2
+  title: "that day we walked around for hours"
+  date: "write the date here"
+  description: >-
+    Another placeholder. Write it the way you'd tell it out loud, not the way
+    you'd write a caption.
+  photos:
+    - photos/walk_01.jpg
+    - photos/walk_02.jpg
+  tags: [date, early]
+
+- id: mem_003
+  number: 3
+  title: "the stupid one"
+  date: "write the date here"
+  description: >-
+    Every couple has the one that makes no sense to anyone else. Write that one
+    here.
+  tags: [funny]

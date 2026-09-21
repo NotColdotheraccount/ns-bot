@@ -1,0 +1,87 @@
+# Reassurance messages — written by you, never generated.
+#
+# TAG VOCABULARY (keep to these so the handlers can find things):
+#   general comfort reassurance missing_me bad_day stress overthinking
+#   insecurity sleep argument frustrated sad motivation love funny random
+#
+# The Bad Day buttons map to: sad stress overthinking missing_me frustrated comfort
+# Write at least one or two items for each, or that button falls back to general.
+#
+# REPLACE ALL OF THESE WITH YOUR OWN WORDS. They are placeholders in the
+# right shape, not content — the whole point is that these are yours.
+
+# ---------------------------------------------------------------- general
+- id: reassure_001
+  kind: text
+  text: "hey. whatever's going on right now, it passes. it always does. i'm still here even when i'm not."
+  tags: [general, comfort, missing_me]
+
+- id: reassure_002
+  kind: text
+  text: "you don't have to be okay today. just get through it. that's enough."
+  tags: [general, comfort, bad_day]
+
+# ------------------------------------------------------------ overthinking
+- id: reassure_003
+  kind: text
+  text: "i know your brain is doing the thing again. it's lying to you. i haven't changed my mind about you and i'm not going to."
+  tags: [overthinking, insecurity, comfort]
+  weight: 1.5
+
+- id: reassure_010
+  kind: text
+  text: "whatever you're replaying in your head right now — you're the only one still thinking about it. let it go. please."
+  tags: [overthinking, comfort]
+
+# ----------------------------------------------------------------- missing
+- id: reassure_004
+  kind: text
+  text: "counting down with you. every day that passes is one closer, not one lost."
+  tags: [missing_me, motivation, comfort]
+
+- id: reassure_011
+  kind: text
+  text: "i miss you too. i'm not going to pretend i don't. but i'm still yours the whole time i'm gone."
+  tags: [missing_me, love, comfort]
+
+# ------------------------------------------------------------------- sleep
+- id: reassure_005
+  kind: text
+  text: "go to sleep. seriously. everything feels worse at 2am and you know it."
+  tags: [sleep, overthinking, comfort]
+
+# ------------------------------------------------------------------ stress
+- id: reassure_006
+  kind: text
+  text: "you've done hard things before and you're still here. this one's not different. one thing at a time."
+  tags: [stress, motivation, comfort]
+
+- id: reassure_012
+  kind: text
+  text: "it's okay to do the bare minimum today. nobody's keeping score except you."
+  tags: [stress, bad_day, comfort]
+
+# --------------------------------------------------------------------- sad
+- id: reassure_007
+  kind: text
+  text: "you're allowed to just be sad about it. you don't have to explain it or fix it right now."
+  tags: [sad, comfort]
+
+# -------------------------------------------------------------- frustrated
+- id: reassure_008
+  kind: text
+  text: "okay be angry about it. you're allowed. tell me the whole thing when i call."
+  tags: [frustrated, comfort]
+
+# -------------------------------------------------------------- insecurity
+- id: reassure_009
+  kind: text
+  text: "you keep waiting for me to change my mind about you. i'm not going to. i've had a lot of time to be sure."
+  tags: [insecurity, love, comfort]
+  weight: 1.5
+
+# ---------------------------------------------------------------- argument
+- id: reassure_013
+  kind: text
+  text: "we're fine. one bad conversation doesn't undo anything. i'm not going anywhere."
+  tags: [argument, comfort, reassurance]

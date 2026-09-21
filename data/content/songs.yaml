@@ -1,0 +1,14 @@
+# Songs you recorded. Sent as `audio` so Telegram shows a player with a title
+# rather than a voice-note waveform.
+
+- id: song_001
+  kind: audio
+  file: songs/example.mp3
+  title: "the one you always ask for"
+  tags: [cute, love]
+
+- id: song_002
+  kind: audio
+  file: songs/sad_one.mp3
+  title: "the sad one"
+  tags: [sad, comfort]

@@ -1,0 +1,50 @@
+# Letters you write BEFORE you enlist.
+#
+# These are the thing this whole project exists for. Do not generate them.
+#
+# SCHEDULING — set exactly one:
+#   day: 14           -> 14 days after your enlistment date
+#   send_on: 2027-02-14  -> a specific calendar date
+#
+# Use `day` for anything tied to your service (day 1, first bookout, halfway).
+# Use `send_on` for calendar things (her birthday, your anniversary).
+#
+# FIELDS
+#   id       required, unique, never reuse. Delivery is tracked against it.
+#   number   required, unique. Shown to her as "Letter #3".
+#   title    required.
+#   body     required. The letter itself. Max ~4000 characters.
+#   photo / voice / video   optional, paths relative to media/.
+#
+# A letter is delivered ONCE, ever. If the bot is offline on the day it was
+# due, it arrives on the next run instead of being lost.
+
+- id: letter_001
+  number: 1
+  day: 0
+  title: "day one"
+  body: >-
+    Replace this with the letter you actually want her to read on the day you
+    leave. Write it the way you talk. Don't polish it.
+
+- id: letter_002
+  number: 2
+  day: 3
+  title: "by now you've noticed i'm not around"
+  body: >-
+    Write this one for the third day, when the novelty has worn off and it
+    just feels quiet.
+
+- id: letter_003
+  number: 3
+  day: 14
+  title: "two weeks"
+  body: >-
+    Two weeks in. Write something about how you knew this part would be hard.
+
+- id: letter_004
+  number: 4
+  day: 30
+  title: "one month"
+  body: >-
+    A month. Write whatever a month deserves.

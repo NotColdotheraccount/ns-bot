@@ -1,0 +1,13 @@
+# Railway deployment settings, kept in the repo so they are versioned
+# alongside the code instead of living only in a dashboard.
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+# Restart if the process crashes, but give up after 10 attempts in a row so a
+# broken config does not loop forever. The startup DM makes a crash loop
+# visible: several "Bot started" messages you did not cause.
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10

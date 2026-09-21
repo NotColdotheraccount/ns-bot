@@ -1,0 +1,73 @@
+# Open When letters.
+#
+# She picks these herself from a list, so the `title` is what she reads when
+# deciding. Write titles as the end of the sentence "Open when…"
+#   title: "you miss me"        -> button reads "💌 you miss me"
+#
+# FIELDS
+#   id        required, unique, max 48 chars (button data limit)
+#   title     required, max 60 chars — keep short, Telegram truncates
+#   body      required, the letter
+#   photo / voice / video   optional, relative to media/
+#   followup  optional, sent a couple of seconds after
+#   order     lower numbers appear first (default 100)
+#
+# UNLOCKING (optional — most should have none)
+#   unlock_day: 30        -> 30 days after enlistment
+#   unlock_on: 2027-02-14 -> a specific date
+#   neither               -> available immediately
+#
+# Locked letters still show in the list with 🔒 so she can see them coming.
+# Don't lock the ones she's most likely to need. A sealed letter on the night
+# she actually needs it is worse than no lock at all.
+
+- id: ow_miss_me
+  order: 10
+  title: "you miss me"
+  body: >-
+    Replace this with the real thing. Write it like you're talking to her at
+    2am, not writing a card.
+
+- id: ow_sad
+  order: 20
+  title: "you're sad"
+  body: >-
+    Write this one for a bad night.
+
+- id: ow_cant_sleep
+  order: 30
+  title: "you can't sleep"
+  body: >-
+    Write this for 3am.
+
+- id: ow_overthinking
+  order: 40
+  title: "you're overthinking"
+  body: >-
+    Write the thing you'd actually say when her brain is running away with her.
+
+- id: ow_argued
+  order: 50
+  title: "we argued"
+  body: >-
+    Write this one while you're calm, for a day when neither of you is.
+
+- id: ow_proud
+  order: 60
+  title: "you're proud of yourself"
+  body: >-
+    Write the one where you get to be pleased for her.
+
+- id: ow_laugh
+  order: 70
+  title: "you want to laugh"
+  body: >-
+    Something stupid. It doesn't all have to be heavy.
+
+- id: ow_halfway
+  order: 80
+  unlock_day: 180
+  title: "we're halfway"
+  body: >-
+    An example of a locked letter — this one opens 180 days after you enlist.
+    Use locks sparingly.

@@ -1,0 +1,19 @@
+# Keep secrets, local state and junk out of the image.
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.venv/
+__pycache__/
+*.py[cod]
+.git/
+.vscode/
+.idea/
+logs/
+*.log
+*.zip
+Thumbs.db
+.DS_Store
