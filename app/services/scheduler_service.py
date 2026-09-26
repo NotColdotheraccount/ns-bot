@@ -54,16 +54,46 @@ logger = logging.getLogger(__name__)
 
 # Setting keys and their defaults, in 24-hour HH:MM Singapore time.
 SCHEDULE_DEFAULTS: dict[str, str] = {
-    "schedule.morning": "08:00",
-    "schedule.checkin": "21:00",
-    "schedule.goodnight": "23:00",
+    "schedule.morning": "06:00",
+    "schedule.checkin": "19:00",
+    "schedule.goodnight": "22:00",
     "schedule.letters": "10:00",
 }
 
 _CHECKIN_PROMPTS = (
-    "how was your day today? ❤️",
-    "hey. how'd today go?",
-    "checking in 🥺 how was it?",
+    "hi baby how was your day today?",
+    "how was your day today baby?",
+    "just checking in",
+    "hiii babyyy how are you doing?",
+    "how are you feeling today baby?",
+    "how did today go for you?",
+    "hiii baby just wanted to check on you",
+    "how has your day been babyyy?",
+    "you doing okay baby?",
+    "how are you babyyyy?",
+    "tell me about your dayyy",
+    "what did you do today babyyy?",
+    "how was everything today?",
+    "hiii cutieee how was your day?",
+    "babyyyy how are you feelingggg?",
+    "just checking up on you babyyy",
+    "how is my babyyyy doing?",
+    "did you have a good day today?",
+    "anything interesting happen today babyyy?",
+    "how did your day treat you today?",
+    "helloooo babyyy how have you been today?",
+    "hiii princessss how was today?",
+    "how are things going babyyyy?",
+    "hope your day was okayyy, how was it?",
+    "babyyyy tell me how your day wenttt",
+    "how was everything going today cutieee?",
+    "you okayyyy babyyy?",
+    "just wanted to know how you are doinggg",
+    "how was your morning and afternoon babyyy?",
+    "what was the best part of your day today?",
+    "did anything make you happy today babyyy?",
+    "was today tiringggg?",
+    "how are you feeling right now babyyy?",
 )
 
 # Chance a scheduled text is followed by a real voice note.
