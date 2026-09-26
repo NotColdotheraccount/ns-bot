@@ -10,6 +10,8 @@
 # REPLACE ALL OF THESE WITH YOUR OWN WORDS. They are placeholders in the
 # right shape, not content — the whole point is that these are yours.
 
+#About 30 reassurance messages, covering the Bad Day tags: sad, stress, overthinking, missing_me, frustrated.
+
 # ---------------------------------------------------------------- general
 - id: reassure_001
   kind: text
@@ -20,6 +22,56 @@
   kind: text
   text: "you don't have to be okay today. just get through it. that's enough."
   tags: [general, comfort, bad_day]
+
+- id: reassure_014
+  kind: text
+  text: "hey babyyy whatever today feels like, just take it one thing at a time okayyy"
+  tags: [general, comfort, reassurance]
+
+- id: reassure_015
+  kind: text
+  text: "babyyy you dont have to figure everything out right now okay"
+  tags: [general, comfort, reassurance]
+
+- id: reassure_016
+  kind: text
+  text: "hiiii babyyy just reminding you that everything will be okayyy"
+  tags: [general, comfort, reassurance]
+
+- id: reassure_017
+  kind: text
+  text: "whatever happened today babyyy, tomorrow is a new day okayyy"
+  tags: [general, comfort, bad_day]
+
+- id: reassure_018
+  kind: text
+  text: "babyyy be a little nicer to yourself okayyy youre trying your best"
+  tags: [general, comfort, reassurance]
+
+- id: reassure_019
+  kind: text
+  text: "its okayyyy babyyy you dont always need to have everything together"
+  tags: [general, comfort]
+
+- id: reassure_020
+  kind: text
+  text: "one thing at a time babyyy dont stress yourself with everything at once"
+  tags: [general, comfort, stress]
+
+- id: reassure_021
+  kind: text
+  text: "babyyy whatever youre feeling right now is gonna pass okayyy"
+  tags: [general, comfort, reassurance]
+
+- id: reassure_022
+  kind: text
+  text: "you made it through today babyyy and thats already enough"
+  tags: [general, comfort, bad_day]
+
+- id: reassure_023
+  kind: text
+  text: "hiiii baby just in case nobody told you today, youre doing okayyy"
+  tags: [general, comfort, reassurance]
 
 # ------------------------------------------------------------ overthinking
 - id: reassure_003
@@ -33,6 +85,56 @@
   text: "whatever you're replaying in your head right now — you're the only one still thinking about it. let it go. please."
   tags: [overthinking, comfort]
 
+- id: reassure_024
+  kind: text
+  text: "babyyy youre overthinking againnnn dont believe everything your brain is telling you okay"
+  tags: [overthinking, comfort, reassurance]
+
+- id: reassure_025
+  kind: text
+  text: "hey hey hey babyyy get out of your headddd youre okay"
+  tags: [overthinking, comfort]
+
+- id: reassure_026
+  kind: text
+  text: "babyyy i promise its probably not as bad as your brain is making it seem"
+  tags: [overthinking, comfort, reassurance]
+
+- id: reassure_027
+  kind: text
+  text: "stop replaying it over and overrrr babyyy youre just gonna make yourself more stressed"
+  tags: [overthinking, stress, comfort]
+
+- id: reassure_028
+  kind: text
+  text: "babyyy dont create problems in your head that havent even happenedddd"
+  tags: [overthinking, comfort]
+
+- id: reassure_029
+  kind: text
+  text: "hmmmm babyyy i know your brain likes to think of every possible thing but youre okayyy"
+  tags: [overthinking, comfort, reassurance]
+
+- id: reassure_030
+  kind: text
+  text: "babyyyy breatheeee and stop thinking about every tiny detail okayyy"
+  tags: [overthinking, comfort]
+
+- id: reassure_031
+  kind: text
+  text: "whatever youre thinking about right now babyyy give yourself a break from it"
+  tags: [overthinking, comfort]
+
+- id: reassure_032
+  kind: text
+  text: "babyyy you dont need to have an answer for everything tonighttt"
+  tags: [overthinking, sleep, comfort]
+
+- id: reassure_033
+  kind: text
+  text: "your brain is doing the overthinking thing againnn babyyy dont let it win"
+  tags: [overthinking, comfort, reassurance]
+
 # ----------------------------------------------------------------- missing
 - id: reassure_004
   kind: text
@@ -44,11 +146,111 @@
   text: "i miss you too. i'm not going to pretend i don't. but i'm still yours the whole time i'm gone."
   tags: [missing_me, love, comfort]
 
+- id: reassure_064
+  kind: text
+  text: "awww babyyy i miss you tooooo"
+  tags: [missing_me, comfort]
+
+- id: reassure_065
+  kind: text
+  text: "BABYYYYY I MISS YOU MOREEEEE"
+  tags: [missing_me, comfort]
+
+- id: reassure_066
+  kind: text
+  text: "i knowww babyyy i wanna see you toooo"
+  tags: [missing_me, comfort]
+
+- id: reassure_067
+  kind: text
+  text: "babyyy every day that passes means one day closer okayyy"
+  tags: [missing_me, motivation, comfort]
+
+- id: reassure_068
+  kind: text
+  text: "awwww dont make me miss you even moreeee babyyy"
+  tags: [missing_me, comfort]
+
+- id: reassure_069
+  kind: text
+  text: "i miss youuuuu babyyy but we'll see each other again soon okay"
+  tags: [missing_me, comfort, reassurance]
+
+- id: reassure_070
+  kind: text
+  text: "babyyy i knowwwww it feels long but we're getting closer everyday"
+  tags: [missing_me, motivation, comfort]
+
+- id: reassure_071
+  kind: text
+  text: "awwwww babyyy imagine the hug when we finally see each other againnn"
+  tags: [missing_me, comfort]
+
+- id: reassure_072
+  kind: text
+  text: "i miss you too babyyyyy just a little more okayyy"
+  tags: [missing_me, comfort, reassurance]
+
+- id: reassure_073
+  kind: text
+  text: "BABYYYY come hereeee i miss youuuuu"
+  tags: [missing_me, comfort]
+
 # ------------------------------------------------------------------- sleep
 - id: reassure_005
   kind: text
   text: "go to sleep. seriously. everything feels worse at 2am and you know it."
   tags: [sleep, overthinking, comfort]
+
+- id: reassure_044
+  kind: text
+  text: "babyyy go sleepppp everything can wait until tomorrow"
+  tags: [sleep, comfort]
+
+- id: reassure_045
+  kind: text
+  text: "its lateeee babyyy stop thinking and go restttt"
+  tags: [sleep, overthinking, comfort]
+
+- id: reassure_046
+  kind: text
+  text: "babyyy whatever youre worrying about will still be there tomorrow, go sleeppp"
+  tags: [sleep, overthinking, comfort]
+
+- id: reassure_047
+  kind: text
+  text: "close your eyessss babyyy your brain needs a break too"
+  tags: [sleep, comfort]
+
+- id: reassure_048
+  kind: text
+  text: "babyyy please get some resttt you had enough for today"
+  tags: [sleep, bad_day, comfort]
+
+- id: reassure_049
+  kind: text
+  text: "stoppp staying awake thinking about everything babyyy sleepppp"
+  tags: [sleep, overthinking, comfort]
+
+- id: reassure_050
+  kind: text
+  text: "babyyy tomorrow problems are for tomorrow youuu, tonight you sleep"
+  tags: [sleep, comfort]
+
+- id: reassure_051
+  kind: text
+  text: "go rest babyyyy you dont need to solve your whole life at night"
+  tags: [sleep, overthinking, comfort]
+
+- id: reassure_052
+  kind: text
+  text: "sleepy time babyyy put everything down for tonighttt"
+  tags: [sleep, comfort]
+
+- id: reassure_053
+  kind: text
+  text: "babyyy your only job right now is to rest okayyy"
+  tags: [sleep, comfort, reassurance]
 
 # ------------------------------------------------------------------ stress
 - id: reassure_006
@@ -60,6 +262,56 @@
   kind: text
   text: "it's okay to do the bare minimum today. nobody's keeping score except you."
   tags: [stress, bad_day, comfort]
+
+- id: reassure_054
+  kind: text
+  text: "babyyy one thing at a time okayyy dont think about everything together"
+  tags: [stress, comfort]
+
+- id: reassure_055
+  kind: text
+  text: "you got this babyyy just focus on whats infront of you first"
+  tags: [stress, motivation, comfort]
+
+- id: reassure_056
+  kind: text
+  text: "babyyy take a small breakkk youre allowed to rest"
+  tags: [stress, comfort]
+
+- id: reassure_057
+  kind: text
+  text: "dont overwhelm yourself babyyy do what you can today and thats enough"
+  tags: [stress, comfort, reassurance]
+
+- id: reassure_058
+  kind: text
+  text: "babyyy you dont need to finish everything all at onceee"
+  tags: [stress, comfort]
+
+- id: reassure_059
+  kind: text
+  text: "hmmmm babyyy slow downnnn youre stressing yourself out"
+  tags: [stress, comfort]
+
+- id: reassure_060
+  kind: text
+  text: "youve handled stressful days before babyyy youll get through this one too"
+  tags: [stress, motivation, comfort]
+
+- id: reassure_061
+  kind: text
+  text: "babyyy do what you can and leave the rest for later okayyy"
+  tags: [stress, comfort]
+
+- id: reassure_062
+  kind: text
+  text: "hey babyyy dont forget to rest while youre trying to get everything done"
+  tags: [stress, comfort]
+
+- id: reassure_063
+  kind: text
+  text: "youre doing fine babyyy just dont rush yourself okay"
+  tags: [stress, reassurance, comfort]
 
 # --------------------------------------------------------------------- sad
 - id: reassure_007
@@ -80,8 +332,1178 @@
   tags: [insecurity, love, comfort]
   weight: 1.5
 
+- id: reassure_034
+  kind: text
+  text: "babyyy youre more than enough okayyy stop being so hard on yourself"
+  tags: [insecurity, comfort, reassurance]
+
+- id: reassure_035
+  kind: text
+  text: "hey babyyy dont compare yourself to other people okayyy"
+  tags: [insecurity, comfort]
+
+- id: reassure_036
+  kind: text
+  text: "babyyy you dont need to change yourself to be good enough"
+  tags: [insecurity, comfort, reassurance]
+
+- id: reassure_037
+  kind: text
+  text: "hmmmm stop doubting yourself babyyy you have so much good in you"
+  tags: [insecurity, comfort]
+
+- id: reassure_038
+  kind: text
+  text: "babyyy youre seeing yourself way harsher than everyone else does"
+  tags: [insecurity, overthinking, comfort]
+
+- id: reassure_039
+  kind: text
+  text: "youre enough babyyy even on the days you dont feel like it"
+  tags: [insecurity, comfort, reassurance]
+
+- id: reassure_040
+  kind: text
+  text: "babyyy please dont let one bad thought change how you see yourself"
+  tags: [insecurity, overthinking, comfort]
+
+- id: reassure_041
+  kind: text
+  text: "you dont need to be perfect babyyy nobody is asking you to be"
+  tags: [insecurity, comfort]
+
+- id: reassure_042
+  kind: text
+  text: "babyyy stoppp doubting yourself so muchhh youre doing better than you think"
+  tags: [insecurity, comfort, reassurance]
+
+- id: reassure_043
+  kind: text
+  text: "hey babyyy whatever youre insecure about right now, dont let it ruin your day okay"
+  tags: [insecurity, comfort]
+
 # ---------------------------------------------------------------- argument
 - id: reassure_013
   kind: text
   text: "we're fine. one bad conversation doesn't undo anything. i'm not going anywhere."
   tags: [argument, comfort, reassurance]
+
+- id: reassure_074
+  kind: text
+  text: "babyyy one argument doesnt change everything okayyy"
+  tags: [argument, comfort, reassurance]
+
+- id: reassure_075
+  kind: text
+  text: "hey babyyy its okay to be upset, we'll talk properly when we're calmer"
+  tags: [argument, comfort]
+
+- id: reassure_076
+  kind: text
+  text: "babyyy dont let one bad moment make you think everything is bad"
+  tags: [argument, overthinking, comfort]
+
+- id: reassure_077
+  kind: text
+  text: "we can disagree sometimes babyyy it doesnt mean everything is falling apart"
+  tags: [argument, reassurance, comfort]
+
+- id: reassure_078
+  kind: text
+  text: "babyyy dont overthink the argument okayyy we'll figure it out"
+  tags: [argument, overthinking, comfort]
+
+- id: reassure_079
+  kind: text
+  text: "its okay babyyy give yourself some time to calm down first"
+  tags: [argument, comfort]
+
+- id: reassure_080
+  kind: text
+  text: "babyyy one rough conversation is just one rough conversation"
+  tags: [argument, reassurance, comfort]
+
+- id: reassure_081
+  kind: text
+  text: "hey babyyy dont replay everything we said over and over okay"
+  tags: [argument, overthinking, comfort]
+
+- id: reassure_082
+  kind: text
+  text: "babyyy we'll talk about it properly okayyy dont stress yourself tonight"
+  tags: [argument, stress, comfort]
+
+- id: reassure_083
+  kind: text
+  text: "arguments happen babyyy what matters is we talk about it properly after"
+  tags: [argument, comfort, reassurance]
+
+# ---------------------------------------------------------------- bad day
+- id: reassure_084
+  kind: text
+  text: "awww babyyy im sorry today was baddd"
+  tags: [bad_day, comfort]
+
+- id: reassure_085
+  kind: text
+  text: "babyyy today sucked but at least you made it throughhh"
+  tags: [bad_day, comfort]
+
+- id: reassure_086
+  kind: text
+  text: "its okayyyy babyyy today can just be a bad day"
+  tags: [bad_day, comfort]
+
+- id: reassure_087
+  kind: text
+  text: "babyyy rest tonighttt tomorrow gets a fresh start"
+  tags: [bad_day, sleep, comfort]
+
+- id: reassure_088
+  kind: text
+  text: "awww babyyy you had enough for today go restttt"
+  tags: [bad_day, sleep, comfort]
+
+- id: reassure_089
+  kind: text
+  text: "hmmmm babyyy dont let one bad day convince you everything is bad"
+  tags: [bad_day, overthinking, comfort]
+
+- id: reassure_090
+  kind: text
+  text: "babyyy im sorry today was roughhh hopefully tomorrow treats you better"
+  tags: [bad_day, comfort, reassurance]
+
+- id: reassure_091
+  kind: text
+  text: "its okay baby you dont have to turn today into a good day, just rest"
+  tags: [bad_day, comfort]
+
+- id: reassure_092
+  kind: text
+  text: "awwww come hereeee babyyy today is over alr okayyy"
+  tags: [bad_day, comfort]
+
+- id: reassure_093
+  kind: text
+  text: "bad day doesnt mean bad week babyyy tomorrow we try again"
+  tags: [bad_day, motivation, comfort]
+
+# ---------------------------------------------------------------- general
+- id: reassure_094
+  kind: text
+  text: "hiii babyyy just reminding you that youre gonna be okayyy"
+  tags: [general]
+
+- id: reassure_095
+  kind: text
+  text: "babyyy whatever is going on right now, take it slowly okayyy"
+  tags: [general]
+
+- id: reassure_096
+  kind: text
+  text: "hey babyyy dont be too hard on yourself okay"
+  tags: [general]
+
+- id: reassure_097
+  kind: text
+  text: "youre doing okay babyyy even if it doesnt feel like it right now"
+  tags: [general]
+
+- id: reassure_098
+  kind: text
+  text: "babyyy you dont need to have everything figured out"
+  tags: [general]
+
+- id: reassure_099
+  kind: text
+  text: "hiiii babyyy just take today as it comes okayyy"
+  tags: [general]
+
+- id: reassure_100
+  kind: text
+  text: "everything will work itself out babyyy just give it time"
+  tags: [general]
+
+- id: reassure_101
+  kind: text
+  text: "babyyy remember to be kind to yourself todayyy"
+  tags: [general]
+
+- id: reassure_102
+  kind: text
+  text: "hey cutieee youre doing better than you think okayyy"
+  tags: [general]
+
+- id: reassure_103
+  kind: text
+  text: "babyyy whatever happens, just do your best okay thats enough"
+  tags: [general]
+
+- id: reassure_104
+  kind: text
+  text: "hmmmm babyyy dont put so much pressure on yourself"
+  tags: [general]
+
+- id: reassure_105
+  kind: text
+  text: "you got thisss babyyy i believe in youuu"
+  tags: [general]
+
+- id: reassure_106
+  kind: text
+  text: "babyyy its okay to take things slowlyyy"
+  tags: [general]
+
+- id: reassure_107
+  kind: text
+  text: "hey babyyy youre gonna get through whatever this is okayyy"
+  tags: [general]
+
+- id: reassure_108
+  kind: text
+  text: "dont forget how far youve come babyyy"
+  tags: [general]
+
+- id: reassure_109
+  kind: text
+  text: "babyyy one step at a timeee you dont need to rush"
+  tags: [general]
+
+- id: reassure_110
+  kind: text
+  text: "hiii babyyy i hope youre being nice to yourself today"
+  tags: [general]
+
+- id: reassure_111
+  kind: text
+  text: "whatever today brings babyyy youll handle it"
+  tags: [general]
+
+- id: reassure_112
+  kind: text
+  text: "babyyy youre doing your best and thats all you can do"
+  tags: [general]
+
+- id: reassure_113
+  kind: text
+  text: "hey babyyy everything doesnt have to be perfect okayyy"
+  tags: [general]
+
+
+# ------------------------------------------------------------ overthinking
+- id: reassure_114
+  kind: text
+  text: "babyyy stop thinking about every possible thingggg"
+  tags: [overthinking]
+
+- id: reassure_115
+  kind: text
+  text: "hmmmm youre in your head againnn babyyy"
+  tags: [overthinking]
+
+- id: reassure_116
+  kind: text
+  text: "babyyy dont turn one small thing into a hundred different things"
+  tags: [overthinking]
+
+- id: reassure_117
+  kind: text
+  text: "hey babyyy stop replaying itttt"
+  tags: [overthinking]
+
+- id: reassure_118
+  kind: text
+  text: "babyyy youre thinking wayyyy too far ahead again"
+  tags: [overthinking]
+
+- id: reassure_119
+  kind: text
+  text: "hmmmm dont assume the worst babyyy"
+  tags: [overthinking]
+
+- id: reassure_120
+  kind: text
+  text: "babyyy not every thought needs an answer okayyy"
+  tags: [overthinking]
+
+- id: reassure_121
+  kind: text
+  text: "stopppp making scenarios in your head babyyyy"
+  tags: [overthinking]
+
+- id: reassure_122
+  kind: text
+  text: "babyyy youre thinking about it more than you need to"
+  tags: [overthinking]
+
+- id: reassure_123
+  kind: text
+  text: "hiiii overthinkerrrr get out of your headddd"
+  tags: [overthinking]
+
+- id: reassure_124
+  kind: text
+  text: "babyyy dont let your thoughts scare you into believing something that isnt there"
+  tags: [overthinking]
+
+- id: reassure_125
+  kind: text
+  text: "one thought at a time babyyy dont let them all pile uppp"
+  tags: [overthinking]
+
+- id: reassure_126
+  kind: text
+  text: "babyyy youre doing the what if what if what if thing againnnn"
+  tags: [overthinking]
+
+- id: reassure_127
+  kind: text
+  text: "hmmmm babyyy dont analyse every tiny thing okay"
+  tags: [overthinking]
+
+- id: reassure_128
+  kind: text
+  text: "babyyy sometimes things really are just that simpleee"
+  tags: [overthinking]
+
+- id: reassure_129
+  kind: text
+  text: "stop going through the same thing in your head again and againnn"
+  tags: [overthinking]
+
+- id: reassure_130
+  kind: text
+  text: "babyyy your brain is working overtime againnnn"
+  tags: [overthinking]
+
+- id: reassure_131
+  kind: text
+  text: "hmmmm dont think yourself into feeling worse babyyy"
+  tags: [overthinking]
+
+- id: reassure_132
+  kind: text
+  text: "babyyy you dont need to predict everything thats gonna happen"
+  tags: [overthinking]
+
+- id: reassure_133
+  kind: text
+  text: "hey babyyy leave some things for future you to think abouttt"
+  tags: [overthinking]
+
+
+# ----------------------------------------------------------------- missing
+- id: reassure_134
+  kind: text
+  text: "awwww babyyy i miss you tooooo"
+  tags: [missing_me]
+
+- id: reassure_135
+  kind: text
+  text: "BABYYYY I MISS YOU MOREEEEE"
+  tags: [missing_me]
+
+- id: reassure_136
+  kind: text
+  text: "i knowww babyyy i wanna see youuu too"
+  tags: [missing_me]
+
+- id: reassure_137
+  kind: text
+  text: "babyyyy just a little longer okayyy"
+  tags: [missing_me]
+
+- id: reassure_138
+  kind: text
+  text: "awwwww i wanna see your faceeee babyyy"
+  tags: [missing_me]
+
+- id: reassure_139
+  kind: text
+  text: "i miss youuuuuu so much too babyyy"
+  tags: [missing_me]
+
+- id: reassure_140
+  kind: text
+  text: "babyyy stoppp youre making me miss you moreeee"
+  tags: [missing_me]
+
+- id: reassure_141
+  kind: text
+  text: "awww babyyy i wish i could see you right nowww"
+  tags: [missing_me]
+
+- id: reassure_142
+  kind: text
+  text: "I KNOWWWW BABYYYY I MISS YOU TOO"
+  tags: [missing_me]
+
+- id: reassure_143
+  kind: text
+  text: "babyyy every day means we're one day closerrrr"
+  tags: [missing_me]
+
+- id: reassure_144
+  kind: text
+  text: "hehehe i miss you moreeeee"
+  tags: [missing_me]
+
+- id: reassure_145
+  kind: text
+  text: "awwwww babyyy i wanna be with you toooo"
+  tags: [missing_me]
+
+- id: reassure_146
+  kind: text
+  text: "babyyyy i cant wait to see you againnnn"
+  tags: [missing_me]
+
+- id: reassure_147
+  kind: text
+  text: "NOOOO I MISS YOU MOREEEE BABYYYY"
+  tags: [missing_me]
+
+- id: reassure_148
+  kind: text
+  text: "i know baby i knowwwww just a little moreee"
+  tags: [missing_me]
+
+- id: reassure_149
+  kind: text
+  text: "babyyy imagine when we finally get to see each other againnn"
+  tags: [missing_me]
+
+- id: reassure_150
+  kind: text
+  text: "awwww now youre making me wanna see youuu"
+  tags: [missing_me]
+
+- id: reassure_151
+  kind: text
+  text: "missing youuuuu too babyyyy"
+  tags: [missing_me]
+
+- id: reassure_152
+  kind: text
+  text: "babyyy we'll see each other againnn okayyy"
+  tags: [missing_me]
+
+- id: reassure_153
+  kind: text
+  text: "I MISSSSS YOUUUUUU BABYYYY"
+  tags: [missing_me]
+
+
+# ------------------------------------------------------------------- sleep
+- id: reassure_154
+  kind: text
+  text: "babyyy go sleeppppp"
+  tags: [sleep]
+
+- id: reassure_155
+  kind: text
+  text: "its lateeee babyyy go restttt"
+  tags: [sleep]
+
+- id: reassure_156
+  kind: text
+  text: "BABYYYYY SLEEP TIME ALREADYYYY"
+  tags: [sleep]
+
+- id: reassure_157
+  kind: text
+  text: "babyyy close your eyessss and sleeppp"
+  tags: [sleep]
+
+- id: reassure_158
+  kind: text
+  text: "hmmmm why are you still awakeeee babyyy"
+  tags: [sleep]
+
+- id: reassure_159
+  kind: text
+  text: "go resttttt babyyy you need your sleeppp"
+  tags: [sleep]
+
+- id: reassure_160
+  kind: text
+  text: "babyyy phone downnnn sleepy timeeee"
+  tags: [sleep]
+
+- id: reassure_161
+  kind: text
+  text: "SLEEPPPP BABYYYYY"
+  tags: [sleep]
+
+- id: reassure_162
+  kind: text
+  text: "babyyy tomorrow you will regret staying up this lateeee"
+  tags: [sleep]
+
+- id: reassure_163
+  kind: text
+  text: "hiiii sleepyheadddd go sleep alrrrr"
+  tags: [sleep]
+
+- id: reassure_164
+  kind: text
+  text: "babyyy your bed is calling youuuuu"
+  tags: [sleep]
+
+- id: reassure_165
+  kind: text
+  text: "okayyyy enough for today go sleepppp"
+  tags: [sleep]
+
+- id: reassure_166
+  kind: text
+  text: "babyyy you need to rest properlyyy"
+  tags: [sleep]
+
+- id: reassure_167
+  kind: text
+  text: "go get comfy and sleepppp babyyyy"
+  tags: [sleep]
+
+- id: reassure_168
+  kind: text
+  text: "BABYYYY BEDTIMEEEE"
+  tags: [sleep]
+
+- id: reassure_169
+  kind: text
+  text: "stop scrollingggg babyyy go sleep"
+  tags: [sleep]
+
+- id: reassure_170
+  kind: text
+  text: "babyyy get some proper rest tonight okayyy"
+  tags: [sleep]
+
+- id: reassure_171
+  kind: text
+  text: "sleep sleep sleepppp babyyyy"
+  tags: [sleep]
+
+- id: reassure_172
+  kind: text
+  text: "babyyy you can continue everything tomorrowwww"
+  tags: [sleep]
+
+- id: reassure_173
+  kind: text
+  text: "okayyy sleepy time now babyyyy"
+  tags: [sleep]
+
+
+# ------------------------------------------------------------------ stress
+- id: reassure_174
+  kind: text
+  text: "babyyy one thing at a timeee dont overwhelm yourself"
+  tags: [stress]
+
+- id: reassure_175
+  kind: text
+  text: "hey babyyy slow downnnn you dont have to do everything right now"
+  tags: [stress]
+
+- id: reassure_176
+  kind: text
+  text: "babyyy just focus on the next thing first okayyy"
+  tags: [stress]
+
+- id: reassure_177
+  kind: text
+  text: "hmmmm dont stress yourself out so much babyyy"
+  tags: [stress]
+
+- id: reassure_178
+  kind: text
+  text: "babyyy take a breakkkk for awhile"
+  tags: [stress]
+
+- id: reassure_179
+  kind: text
+  text: "you dont need to finish everything today babyyy"
+  tags: [stress]
+
+- id: reassure_180
+  kind: text
+  text: "babyyy do what you can firstttt"
+  tags: [stress]
+
+- id: reassure_181
+  kind: text
+  text: "hiiii babyyy dont forget to rest in between okay"
+  tags: [stress]
+
+- id: reassure_182
+  kind: text
+  text: "babyyy youre gonna get it done just dont rushhh"
+  tags: [stress]
+
+- id: reassure_183
+  kind: text
+  text: "one by oneeee babyyy dont think about the whole list"
+  tags: [stress]
+
+- id: reassure_184
+  kind: text
+  text: "babyyy give yourself a minuteee you dont need to keep going nonstop"
+  tags: [stress]
+
+- id: reassure_185
+  kind: text
+  text: "hmmmm youre stressingggg again babyyy"
+  tags: [stress]
+
+- id: reassure_186
+  kind: text
+  text: "babyyy whatever you can finish today is enough okay"
+  tags: [stress]
+
+- id: reassure_187
+  kind: text
+  text: "dont rush yourself babyyy youll get thereee"
+  tags: [stress]
+
+- id: reassure_188
+  kind: text
+  text: "babyyy take it slowlyyyy"
+  tags: [stress]
+
+- id: reassure_189
+  kind: text
+  text: "you got this babyyy just dont pressure yourself too much"
+  tags: [stress]
+
+- id: reassure_190
+  kind: text
+  text: "hmmmm babyyy relaxxx for a little bit okay"
+  tags: [stress]
+
+- id: reassure_191
+  kind: text
+  text: "babyyy you can only do one thing at a timeee"
+  tags: [stress]
+
+- id: reassure_192
+  kind: text
+  text: "hey babyyy dont let everything pile up in your headdd"
+  tags: [stress]
+
+- id: reassure_193
+  kind: text
+  text: "babyyy youll get through all of ittt just slowly okayyy"
+  tags: [stress]
+
+
+# --------------------------------------------------------------------- sad
+- id: reassure_194
+  kind: text
+  text: "awwww babyyy im sorry youre feeling saddd"
+  tags: [sad]
+
+- id: reassure_195
+  kind: text
+  text: "babyyy its okay to be sad okayyy"
+  tags: [sad]
+
+- id: reassure_196
+  kind: text
+  text: "awww come hereeee babyyy"
+  tags: [sad]
+
+- id: reassure_197
+  kind: text
+  text: "hmmmm babyyy i wish i could make you feel betterrr"
+  tags: [sad]
+
+- id: reassure_198
+  kind: text
+  text: "babyyy you dont have to pretend youre okay"
+  tags: [sad]
+
+- id: reassure_199
+  kind: text
+  text: "awwww its okay babyyy let yourself feel ittt"
+  tags: [sad]
+
+- id: reassure_200
+  kind: text
+  text: "babyyy dont keep everything inside okayyy"
+  tags: [sad]
+
+- id: reassure_201
+  kind: text
+  text: "hmmmm im sorry babyyy i hope you feel better soonnn"
+  tags: [sad]
+
+- id: reassure_202
+  kind: text
+  text: "awww baby today can just be a sad day okay"
+  tags: [sad]
+
+- id: reassure_203
+  kind: text
+  text: "babyyy cry if you need to okayyy"
+  tags: [sad]
+
+- id: reassure_204
+  kind: text
+  text: "awwww babyyy i hate knowing youre sad"
+  tags: [sad]
+
+- id: reassure_205
+  kind: text
+  text: "hmmmm its okayyy babyyy"
+  tags: [sad]
+
+- id: reassure_206
+  kind: text
+  text: "babyyy you dont need a reason to feel sad okay"
+  tags: [sad]
+
+- id: reassure_207
+  kind: text
+  text: "awwwww i hope tomorrow feels a little lighter babyyy"
+  tags: [sad]
+
+- id: reassure_208
+  kind: text
+  text: "babyyy dont force yourself to feel better immediately"
+  tags: [sad]
+
+- id: reassure_209
+  kind: text
+  text: "hmmmm babyyy take care of yourself tonight okay"
+  tags: [sad]
+
+- id: reassure_210
+  kind: text
+  text: "awwww im sorry youre feeling like this babyyy"
+  tags: [sad]
+
+- id: reassure_211
+  kind: text
+  text: "babyyy its okay if today just wasnt your day"
+  tags: [sad]
+
+- id: reassure_212
+  kind: text
+  text: "awww come comeeee babyyy"
+  tags: [sad]
+
+- id: reassure_213
+  kind: text
+  text: "babyyy give yourself some time okayyy"
+  tags: [sad]
+
+
+# -------------------------------------------------------------- frustrated
+- id: reassure_214
+  kind: text
+  text: "babyyy i knowwww its annoyingggg"
+  tags: [frustrated]
+
+- id: reassure_215
+  kind: text
+  text: "hmmmm okayyy be angryyy babyyy"
+  tags: [frustrated]
+
+- id: reassure_216
+  kind: text
+  text: "babyyy id be annoyed toooo"
+  tags: [frustrated]
+
+- id: reassure_217
+  kind: text
+  text: "okayyyy babyyy let it outttt"
+  tags: [frustrated]
+
+- id: reassure_218
+  kind: text
+  text: "hmmmm that sounds irritatinggg babyyy"
+  tags: [frustrated]
+
+- id: reassure_219
+  kind: text
+  text: "babyyy youre allowed to be annoyedddd"
+  tags: [frustrated]
+
+- id: reassure_220
+  kind: text
+  text: "UGHHHH babyyy i knowwww"
+  tags: [frustrated]
+
+- id: reassure_221
+  kind: text
+  text: "babyyy dont keep the frustration insideee"
+  tags: [frustrated]
+
+- id: reassure_222
+  kind: text
+  text: "hmmmm tell me everythinggg babyyy"
+  tags: [frustrated]
+
+- id: reassure_223
+  kind: text
+  text: "babyyy that sounds so annoyingggg"
+  tags: [frustrated]
+
+- id: reassure_224
+  kind: text
+  text: "okay okayyy babyyy i understand why youre frustrated"
+  tags: [frustrated]
+
+- id: reassure_225
+  kind: text
+  text: "babyyy let yourself be mad for awhileee"
+  tags: [frustrated]
+
+- id: reassure_226
+  kind: text
+  text: "hmmmm i know babyyy thats irritating"
+  tags: [frustrated]
+
+- id: reassure_227
+  kind: text
+  text: "babyyy get it all outtttt"
+  tags: [frustrated]
+
+- id: reassure_228
+  kind: text
+  text: "UGHHHHH I GET YOU BABYYYY"
+  tags: [frustrated]
+
+- id: reassure_229
+  kind: text
+  text: "babyyy id be frustrated too if that happened"
+  tags: [frustrated]
+
+- id: reassure_230
+  kind: text
+  text: "hmmmm take a minute babyyy"
+  tags: [frustrated]
+
+- id: reassure_231
+  kind: text
+  text: "babyyy its okay to be pissed about ittt"
+  tags: [frustrated]
+
+- id: reassure_232
+  kind: text
+  text: "okayyyy rant to me babyyy"
+  tags: [frustrated]
+
+- id: reassure_233
+  kind: text
+  text: "babyyy i knowww just let it out firsttt"
+  tags: [frustrated]
+
+
+# -------------------------------------------------------------- insecurity
+- id: reassure_234
+  kind: text
+  text: "babyyy youre enough okayyy"
+  tags: [insecurity]
+
+- id: reassure_235
+  kind: text
+  text: "hey babyyy stop being so mean to yourself"
+  tags: [insecurity]
+
+- id: reassure_236
+  kind: text
+  text: "babyyy you dont need to compare yourself to anyoneee"
+  tags: [insecurity]
+
+- id: reassure_237
+  kind: text
+  text: "hmmmm babyyy youre better than you give yourself credit for"
+  tags: [insecurity]
+
+- id: reassure_238
+  kind: text
+  text: "babyyy stop doubting yourself sooo muchhh"
+  tags: [insecurity]
+
+- id: reassure_239
+  kind: text
+  text: "you dont need to be perfect babyyy"
+  tags: [insecurity]
+
+- id: reassure_240
+  kind: text
+  text: "babyyy you have so many good things about youuu"
+  tags: [insecurity]
+
+- id: reassure_241
+  kind: text
+  text: "hmmmm stoppp putting yourself down babyyy"
+  tags: [insecurity]
+
+- id: reassure_242
+  kind: text
+  text: "babyyy dont compare your worst moments to other peoples best ones"
+  tags: [insecurity]
+
+- id: reassure_243
+  kind: text
+  text: "youre doing fineeee babyyy"
+  tags: [insecurity]
+
+- id: reassure_244
+  kind: text
+  text: "babyyy youre so much harder on yourself than you need to be"
+  tags: [insecurity]
+
+- id: reassure_245
+  kind: text
+  text: "hiiii babyyy reminder that youre good enough okayyy"
+  tags: [insecurity]
+
+- id: reassure_246
+  kind: text
+  text: "babyyy dont let one insecurity become everything you see"
+  tags: [insecurity]
+
+- id: reassure_247
+  kind: text
+  text: "you dont have to change everything about yourself babyyy"
+  tags: [insecurity]
+
+- id: reassure_248
+  kind: text
+  text: "babyyy youre allowed to like yourself okayyy"
+  tags: [insecurity]
+
+- id: reassure_249
+  kind: text
+  text: "hmmmm youre overcriticising yourself again babyyy"
+  tags: [insecurity]
+
+- id: reassure_250
+  kind: text
+  text: "babyyy you notice things about yourself that nobody else even thinks about"
+  tags: [insecurity]
+
+- id: reassure_251
+  kind: text
+  text: "youre more than whatever youre insecure about babyyy"
+  tags: [insecurity]
+
+- id: reassure_252
+  kind: text
+  text: "babyyy please give yourself more credittt"
+  tags: [insecurity]
+
+- id: reassure_253
+  kind: text
+  text: "hey babyyy youre doing better than you think you are"
+  tags: [insecurity]
+
+
+# ---------------------------------------------------------------- argument
+- id: reassure_254
+  kind: text
+  text: "babyyy one argument is just one argument okayyy"
+  tags: [argument]
+
+- id: reassure_255
+  kind: text
+  text: "hey babyyy give it some time first okay"
+  tags: [argument]
+
+- id: reassure_256
+  kind: text
+  text: "babyyy we dont have to solve everything while we're upset"
+  tags: [argument]
+
+- id: reassure_257
+  kind: text
+  text: "hmmmm babyyy arguments happen sometimes"
+  tags: [argument]
+
+- id: reassure_258
+  kind: text
+  text: "babyyy dont let one disagreement become bigger than it is"
+  tags: [argument]
+
+- id: reassure_259
+  kind: text
+  text: "hey babyyy we can talk properly after things calm down"
+  tags: [argument]
+
+- id: reassure_260
+  kind: text
+  text: "babyyy its okay if we dont agree on everything"
+  tags: [argument]
+
+- id: reassure_261
+  kind: text
+  text: "hmmmm babyyy dont keep replaying what happened"
+  tags: [argument]
+
+- id: reassure_262
+  kind: text
+  text: "babyyy a bad conversation doesnt mean everything is bad"
+  tags: [argument]
+
+- id: reassure_263
+  kind: text
+  text: "hey babyyy lets just give it some time okayyy"
+  tags: [argument]
+
+- id: reassure_264
+  kind: text
+  text: "babyyy we can disagree and still work things out"
+  tags: [argument]
+
+- id: reassure_265
+  kind: text
+  text: "hmmmm dont think the worst because of one argument babyyy"
+  tags: [argument]
+
+- id: reassure_266
+  kind: text
+  text: "babyyy sometimes we just need time to cool down"
+  tags: [argument]
+
+- id: reassure_267
+  kind: text
+  text: "hey babyyy one rough moment doesnt define everything"
+  tags: [argument]
+
+- id: reassure_268
+  kind: text
+  text: "babyyy dont worry about fixing everything immediately"
+  tags: [argument]
+
+- id: reassure_269
+  kind: text
+  text: "hmmmm its okay babyyy we'll talk when we're calmer"
+  tags: [argument]
+
+- id: reassure_270
+  kind: text
+  text: "babyyy disagreements happen okayyy"
+  tags: [argument]
+
+- id: reassure_271
+  kind: text
+  text: "hey babyyy dont let the argument ruin your whole night"
+  tags: [argument]
+
+- id: reassure_272
+  kind: text
+  text: "babyyy give yourself some time after an argument okay"
+  tags: [argument]
+
+- id: reassure_273
+  kind: text
+  text: "hmmmm babyyy things always feel bigger when we're still upset"
+  tags: [argument]
+
+
+# ---------------------------------------------------------------- bad day
+- id: reassure_274
+  kind: text
+  text: "awwww babyyy im sorry today was baddd"
+  tags: [bad_day]
+
+- id: reassure_275
+  kind: text
+  text: "babyyy today was roughhh but its over now okayyy"
+  tags: [bad_day]
+
+- id: reassure_276
+  kind: text
+  text: "hmmmm im sorry today wasnt good babyyy"
+  tags: [bad_day]
+
+- id: reassure_277
+  kind: text
+  text: "babyyy tomorrow gets another chance okay"
+  tags: [bad_day]
+
+- id: reassure_278
+  kind: text
+  text: "awwww come hereeee you had a long day babyyy"
+  tags: [bad_day]
+
+- id: reassure_279
+  kind: text
+  text: "babyyy dont let today follow you into tomorrowww"
+  tags: [bad_day]
+
+- id: reassure_280
+  kind: text
+  text: "hmmmm today really wasnt your day huhhh babyyy"
+  tags: [bad_day]
+
+- id: reassure_281
+  kind: text
+  text: "babyyy at least you got through todayyy"
+  tags: [bad_day]
+
+- id: reassure_282
+  kind: text
+  text: "awwww im sorry today treated you badlyyy"
+  tags: [bad_day]
+
+- id: reassure_283
+  kind: text
+  text: "babyyy bad days happen okayyy tomorrow we try again"
+  tags: [bad_day]
+
+- id: reassure_284
+  kind: text
+  text: "hmmmm forget today babyyy its doneee"
+  tags: [bad_day]
+
+- id: reassure_285
+  kind: text
+  text: "babyyy one bad day doesnt mean tomorrow will be bad too"
+  tags: [bad_day]
+
+- id: reassure_286
+  kind: text
+  text: "awwww you made it throughhh babyyy"
+  tags: [bad_day]
+
+- id: reassure_287
+  kind: text
+  text: "babyyy today can stay in today okayyy"
+  tags: [bad_day]
+
+- id: reassure_288
+  kind: text
+  text: "hmmmm im sorry it was such a tiring day babyyy"
+  tags: [bad_day]
+
+- id: reassure_289
+  kind: text
+  text: "babyyy dont judge the whole week because today suckeddd"
+  tags: [bad_day]
+
+- id: reassure_290
+  kind: text
+  text: "awwww tomorrow better be nicer to you babyyy"
+  tags: [bad_day]
+
+- id: reassure_291
+  kind: text
+  text: "babyyy today is doneeee you dont need to carry it anymore"
+  tags: [bad_day]
+
+- id: reassure_292
+  kind: text
+  text: "hmmmm bad dayyyy :( im sorry babyyy"
+  tags: [bad_day]
+
+- id: reassure_293
+  kind: text
+  text: "babyyy hopefully tomorrow is sooo much better okayyy"
+  tags: [bad_day]
