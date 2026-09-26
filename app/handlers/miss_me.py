@@ -27,7 +27,7 @@ router = Router(name="miss_me")
 # something that happens every single time stops feeling like a moment.
 VOICE_FOLLOWUP_CHANCE = 0.55
 
-_MISS_TAGS = ("missing_me")
+_MISS_TAGS = ("missing_me",)
 
 
 @router.message(BoundTo(Feature.MISS_ME), F.text)
