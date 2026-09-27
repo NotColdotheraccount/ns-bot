@@ -243,12 +243,12 @@ class SchedulerService:
 
     async def send_morning(self) -> None:
         await self._send_tagged(
-            Feature.GOOD_MORNING, tags=("morning", "love", "general"), action="morning"
+            Feature.GOOD_MORNING, tags=("morning",), action="morning"
         )
 
     async def send_goodnight(self) -> None:
         await self._send_tagged(
-            Feature.GOODNIGHT, tags=("goodnight", "sleep", "love"), action="goodnight"
+            Feature.GOODNIGHT, tags=("goodnight",), action="goodnight"
         )
 
     async def send_letters(self) -> None:
