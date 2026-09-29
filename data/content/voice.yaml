@@ -9,21 +9,106 @@
 # Recording tip: Telegram voice notes are .ogg. The simplest way to get one is
 # to record a voice message in Telegram, forward it to yourself, and save it.
 
+# Voice recordings — real recordings of Aqeef.
+# `file` is relative to media/, so `voice/x.ogg` means media/voice/x.ogg.
+
+# ---------- Long / personal ----------
 - id: voice_001
   kind: voice
-  file: voice/hello.ogg
-  title: "just saying hi"
-  tags: [random, love]
+  file: "voice/From the beginning.ogg"
+  title: "our story, from the beginning"
+  tags: [love, memories, yap]
+  weight: 1.5
 
 - id: voice_002
   kind: voice
-  file: voice/goodnight.ogg
+  file: "voice/Reasons why i love you.ogg"
+  title: "reasons why i love you"
+  tags: [love, comfort, memories]
+  weight: 1.5
+
+# ---------- Goodnight ----------
+- id: voice_003
+  kind: voice
+  file: "voice/Goodnight(1).ogg"
   title: "goodnight"
   tags: [goodnight, sleep, love]
 
-- id: voice_003
+- id: voice_004
   kind: voice
-  file: voice/missing_you.ogg
+  file: "voice/Goodnight(2).ogg"
+  title: "goodnight, sleep well"
+  tags: [goodnight, sleep, love]
+
+- id: voice_005
+  kind: voice
+  file: "voice/Goodnight(3).ogg"
+  title: "goodnight again"
+  tags: [goodnight, sleep, love]
+
+# ---------- Miss me ----------
+- id: voice_006
+  kind: voice
+  file: "voice/miss me (1).ogg"
   title: "for when you miss me"
-  tags: [missing_me, comfort]
+  tags: [missing_me, comfort, love]
   weight: 2.0
+
+- id: voice_007
+  kind: voice
+  file: "voice/miss me (2).ogg"
+  title: "missing me again?"
+  tags: [missing_me, comfort, love]
+  weight: 2.0
+
+- id: voice_008
+  kind: voice
+  file: "voice/miss me (3).ogg"
+  title: "i miss you too"
+  tags: [missing_me, comfort, love]
+  weight: 2.0
+
+# ---------- Comfort ----------
+- id: voice_009
+  kind: voice
+  file: "voice/Proud_of_you(1).ogg"
+  title: "i'm proud of you"
+  tags: [proud, encouragement, love]
+
+- id: voice_010
+  kind: voice
+  file: "voice/Reassurance(1).ogg"
+  title: "we're okay"
+  tags: [reassurance, comfort, overthinking]
+  weight: 1.5
+
+# ---------- Bedtime stories ----------
+- id: voice_011
+  kind: voice
+  file: "voice/The Star Who Kept Watch.ogg"
+  title: "story: the star who kept watch"
+  tags: [story, sleep, goodnight]
+
+- id: voice_012
+  kind: voice
+  file: "voice/The lighthouse and the little boat.ogg"
+  title: "story: the lighthouse and the little boat"
+  tags: [story, sleep, goodnight]
+
+- id: voice_013
+  kind: voice
+  file: "voice/The bird who carry little things.ogg"
+  title: "story: the bird who carried little things"
+  tags: [story, sleep, goodnight]
+
+- id: voice_014
+  kind: voice
+  file: "voice/The moon who saved her a seat.ogg"
+  title: "story: the moon who saved her a seat"
+  tags: [story, sleep, goodnight]
+
+- id: voice_015
+  kind: voice
+  file: "voice/The Two Clocks.ogg"
+  title: "story: the two clocks"
+  tags: [story, sleep, goodnight]
