@@ -29,6 +29,11 @@ VOICE_FOLLOWUP_CHANCE = 0.55
 
 _MISS_TAGS = ("missing_me",)
 
+# Answers to "why do you miss me" — a question, not a statement, so it needs
+# its own pool. Keep the trailing comma: without it this is a string, and the
+# tag filter would loop over its characters and match nothing.
+_WHY_MISS_TAGS = ("why_miss_me",)
+
 
 @router.message(BoundTo(Feature.MISS_ME), F.text)
 async def handle_miss_me(
@@ -39,16 +44,34 @@ async def handle_miss_me(
 
     await delivery.typing(bot, message)
 
-    # "i miss you" gets comfort-weighted tags; "another" is a plain reroll.
-    tags = _MISS_TAGS if intent is not Intent.ANOTHER else ()
+    # "why do you miss me" answers the question; "another" is a plain reroll
+    # with no filter; anything else is an ordinary missing-you reply.
+    if intent is Intent.WHY_MISS:
+        tags = _WHY_MISS_TAGS
+    elif intent is Intent.ANOTHER:
+        tags = ()
+    else:
+        tags = _MISS_TAGS
 
     text_item = await delivery.deliver_one(
         bot, message, feature=Feature.MISS_ME, kinds=(ContentKind.TEXT,), tags=tags
     )
 
+    # A why-question with no why content falls back to an ordinary reply
+    # rather than an apology — answering slightly off is better than the bot
+    # telling her nothing was written.
+    if text_item is None and intent is Intent.WHY_MISS:
+        text_item = await delivery.deliver_one(
+            bot,
+            message,
+            feature=Feature.MISS_ME,
+            kinds=(ContentKind.TEXT,),
+            tags=_MISS_TAGS,
+        )
+
     if text_item is None:
         await message.answer(
-            "i haven't written anything for this yet 🥺 (tell aqeef)"
+            "most likely got problems (tell aqeef)"
         )
         return
 

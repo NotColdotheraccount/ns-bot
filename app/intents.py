@@ -1,18 +1,3 @@
-"""Deterministic intent detection.
-
-Your spec was explicit that "another memory" must not cost a Claude call, and
-this module is how that promise is kept. Every feature that can be served by
-keyword matching is served by keyword matching: no API latency, no token spend,
-no failure mode when the network is down, and identical behaviour every time.
-
-Claude is reserved for the AI Chat topic and for Ask Past Me fallback, where
-open-ended language genuinely is the point.
-
-Deliberately simple. Matching is substring-based on a normalised string, which
-handles the realistic input ("another one", "ANOTHER", "another one pls 🥺")
-without pretending to be a parser.
-"""
-
 from __future__ import annotations
 
 import re
@@ -38,6 +23,7 @@ class Intent(StrEnum):
     """What she is asking for, inferred from phrasing."""
 
     ANOTHER = auto()       # "another", "again", "one more"
+    WHY_MISS = auto()      # "why do you miss me"
     MISSING = auto()       # "i miss you"
     SAD = auto()           # "i had a bad day", "im sad"
     SPECIFIC_MOOD = auto() # "something sad", "something cute"
@@ -51,9 +37,13 @@ _ANOTHER = (
 
 _MISSING = (
     "miss you", "miss u", "miss him", "missing you", "missing u",
-    "i miss", "rindu", "wish you were here", "want you here",
+    "i miss", "wish you were here", "want you here",
     "come home", "come back",
 )
+
+_WHY_WORDS = ("why", "whyy", "y", "hw", "how come")
+
+_MISS_WORDS = ("miss", "missing", "missed")
 
 _SAD = (
     "bad day", "rough day", "awful day", "terrible day", "hard day",
@@ -75,6 +65,11 @@ def detect_intent(text: str) -> Intent:
 
     normalised = normalise(text)
 
+    # Checked before MISSING: "why do you miss me" contains a missing phrase,
+    # so the more specific question has to win or it never fires.
+    if _is_why_miss(normalised):
+        return Intent.WHY_MISS
+
     # Checked before ANOTHER so "i miss you, send another" reads as missing.
     if any(phrase in normalised for phrase in _MISSING):
         return Intent.MISSING
@@ -86,6 +81,24 @@ def detect_intent(text: str) -> Intent:
         return Intent.ANOTHER
     return Intent.GENERIC
 
+def _is_why_miss(normalised: str) -> bool:
+    """True for 'why do you miss me' and its many spellings.
+
+    Matching on structure rather than a list of exact phrases, because there
+    are too many ways to type it: why / whyy / y, do you / u / you, miss me /
+    missing me. The rule is simply: it opens with a why-word and mentions
+    missing. Anything longer than a short question is ignored, so "i was
+    wondering why you miss me so much when..." stays a plain missing message.
+    """
+    words = normalised.split()
+    if not words or len(words) > 8:
+        return False
+
+    opens_with_why = words[0] in _WHY_WORDS or normalised.startswith("how come")
+    if not opens_with_why:
+        return False
+
+    return any(word in _MISS_WORDS for word in words)
 
 def extract_mood(text: str) -> str | None:
     """Pull a mood tag out of a request like 'something sad'.
