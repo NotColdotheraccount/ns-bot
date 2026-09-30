@@ -3,12 +3,12 @@
 
 - id: song_001
   kind: audio
-  file: songs/example.mp3
-  title: "the one you always ask for"
+  file: songs/Wildflower_Cover.mp3
+  title: "Wildflower"
   tags: [cute, love]
 
 - id: song_002
   kind: audio
-  file: songs/sad_one.mp3
-  title: "the sad one"
-  tags: [sad, comfort]
+  file: songs/Promise_Cover.mp3
+  title: "Promise"
+  tags: [comfort, sad, love]

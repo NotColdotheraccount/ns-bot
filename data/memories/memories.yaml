@@ -21,35 +21,247 @@
 
 - id: mem_001
   number: 1
-  title: "the first time we met"
-  date: "write the date here"
-  location: "write where"
-  description: >-
-    Replace this with what you actually remember. The small details are the
-    ones worth writing down — what she was wearing, what you were nervous
-    about, the thing you both still bring up.
+  title: "officially us"
+  date: ""
+  description: ""
   photos:
-    - photos/first_meeting_01.jpg
+    - photos/Officially-us.jpeg
   tags: [early, love]
   weight: 2.0
 
 - id: mem_002
   number: 2
-  title: "that day we walked around for hours"
-  date: "write the date here"
-  description: >-
-    Another placeholder. Write it the way you'd tell it out loud, not the way
-    you'd write a caption.
+  title: "estela stalking me"
+  date: ""
+  description: ""
   photos:
-    - photos/walk_01.jpg
-    - photos/walk_02.jpg
-  tags: [date, early]
+    - photos/estela-stalking.jpeg
+  tags: [funny, early]
 
 - id: mem_003
   number: 3
-  title: "the stupid one"
-  date: "write the date here"
-  description: >-
-    Every couple has the one that makes no sense to anyone else. Write that one
-    here.
-  tags: [funny]
+  title: "lady gaga photobooth"
+  date: ""
+  description: ""
+  photos:
+    - photos/ladygagaphotobooth.jpeg
+  tags: [date, funny]
+
+- id: mem_004
+  number: 4
+  title: "bintan"
+  date: ""
+  location: "Bintan"
+  description: ""
+  photos:
+    - photos/Bintan.jpeg
+  tags: [trip]
+
+- id: mem_005
+  number: 5
+  title: "korea"
+  date: ""
+  location: "Korea"
+  description: ""
+  photos:
+    - photos/korea.jpeg
+  tags: [trip]
+
+- id: mem_006
+  number: 6
+  title: "the wedding"
+  date: ""
+  description: ""
+  photos:
+    - photos/wedding.png
+  tags: [date, love]
+
+- id: mem_007
+  number: 7
+  title: "our future wedding"
+  date: ""
+  description: ""
+  photos:
+    - photos/future_wedding.jpg
+  tags: [love]
+  weight: 2.0
+
+- id: mem_008
+  number: 8
+  title: "memory 8"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal1.jpeg
+  tags: [love]
+
+- id: mem_009
+  number: 9
+  title: "memory 9"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal2.jpeg
+  tags: [love]
+
+- id: mem_010
+  number: 10
+  title: "memory 10"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal3.jpeg
+  tags: [love]
+
+- id: mem_011
+  number: 11
+  title: "memory 11"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal4.jpeg
+  tags: [love]
+
+- id: mem_012
+  number: 12
+  title: "memory 12"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal5.jpeg
+  tags: [love]
+
+- id: mem_013
+  number: 13
+  title: "memory 13"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal6.jpeg
+  tags: [love]
+
+- id: mem_014
+  number: 14
+  title: "memory 14"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal7.jpeg
+  tags: [love]
+
+- id: mem_015
+  number: 15
+  title: "memory 15"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal8.jpeg
+  tags: [love]
+
+- id: mem_016
+  number: 16
+  title: "memory 16"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal9.jpeg
+  tags: [love]
+
+- id: mem_017
+  number: 17
+  title: "memory 17"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal10.jpeg
+  tags: [love]
+
+- id: mem_018
+  number: 18
+  title: "memory 18"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal11.jpeg
+  tags: [love]
+
+- id: mem_019
+  number: 19
+  title: "memory 19"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal12.jpeg
+  tags: [love]
+
+- id: mem_020
+  number: 20
+  title: "memory 20"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal13.jpeg
+  tags: [love]
+
+- id: mem_021
+  number: 21
+  title: "memory 21"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal14.jpeg
+  tags: [love]
+
+- id: mem_022
+  number: 22
+  title: "memory 22"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal15.jpeg
+  tags: [love]
+
+- id: mem_023
+  number: 23
+  title: "memory 23"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal16.jpeg
+  tags: [love]
+
+- id: mem_024
+  number: 24
+  title: "memory 24"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal17.jpeg
+  tags: [love]
+
+- id: mem_025
+  number: 25
+  title: "memory 25"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal18.jpeg
+  tags: [love]
+
+- id: mem_026
+  number: 26
+  title: "memory 26"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal19.jpeg
+  tags: [love]
+
+- id: mem_027
+  number: 27
+  title: "memory 27"
+  date: ""
+  description: ""
+  photos:
+    - photos/gal20.jpeg
+  tags: [love]

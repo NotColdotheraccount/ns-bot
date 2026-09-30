@@ -91,7 +91,7 @@
 
 - id: voice_012
   kind: voice
-  file: "voice/The lighthouse and the little boat.ogg"
+  file: "voice/The Lighthouse and the little boat.ogg"
   title: "story: the lighthouse and the little boat"
   tags: [story, sleep, goodnight]
 
